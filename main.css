@@ -1,0 +1,165 @@
+body {
+    background: #01010e;
+    height: 100px;
+    color: white;
+}
+
+.sidebar {
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    background: #1D1D22;
+}
+
+.sidebar a,
+.sidebar a.active,
+.sidebar a:hover,
+.sidebar .logo {
+    background: #1D1D22;
+    text-align: center;
+    border: 0px;
+}
+
+.sidebar .logo {
+    border-bottom: 10px solid black;
+}
+
+.sidebar a {
+    transition: all 1s ease-in-out;
+}
+
+.sidebar a span {
+    font-weight: 100;
+}
+
+.sidebar a:not(.active) {
+    color: white;
+}
+
+.sidebar a.active {
+    color: #25ca7f;
+}
+
+.sidebar a .bi {
+    font-size: 30px;
+}
+
+.sidebar a.active .bi {
+    font-size: 40px;
+}
+
+.content-site {
+    margin-left: 150px;
+}
+
+.jumbotron {
+    background-color: #070708;
+}
+
+.tab-pane {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title-with-border {
+    border-bottom: 1px solid #25ca7f;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.my-location {
+    color: #25ca7f;
+    font-weight: 300;
+}
+
+.sub-title-about-me {
+    font-weight: 100;
+    color: white;
+    margin-top: 12px;
+}
+
+.card.service {
+    background: #070708;
+    text-align: center;
+    min-height: 200px;
+}
+
+.card .service-icon {
+    font-size: 50px;
+    background: #01010e;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+    margin-left: 33%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card:hover,
+.card:hover .service-icon {
+    border: 1px solid #25ca7f;
+}
+
+.skills span {
+    display: block;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.skills span .progress {
+    margin-top: 10px;
+}
+
+.skills .progress-bar {
+    background-color: #25ca7f;
+}
+
+
+/* Timeline Style */
+
+ul.timeline {
+    background-color: #070708;
+    list-style-type: none;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #25ca7f;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 80%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: #070708;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #25ca7f;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+/* Timeline Style */
+
+ul.timeline a {
+    color: white;
+    font-weight: bold;
+}
